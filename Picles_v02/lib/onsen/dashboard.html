@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/onsenui.css">
+    <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    <script src="js/onsenui.min.js"></script>
+    <title>Dashboard</title>
+</head>
+
+<style>
+
+    #label-box {
+        background-color: #777164;
+        width: 100%;
+        height: 100px;
+        color: white;
+        font: bold 30px Tahoma;
+        text-align: center;
+    }
+
+    .titles {
+        margin: 10px;
+        font: bold 18px Tahoma;
+        color: #7e7b72;
+    }
+
+    #dashboard-box-1 {
+        background-color: white;
+        height: 150px;
+        margin: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 5px #9c9c9c;
+        border-radius: 5px;
+        overflow: hidden;
+        <-- !Faz não aparecer execessos de objetos que ultrapassem o tamanho da div-->
+    }
+
+    #dashboard-box-2 {
+        background-color: white;
+        height: 75px;
+        margin: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 5px #9c9c9c;
+        border-radius: 5px;
+        overflow: hidden;
+        <-- !Faz não aparecer execessos de objetos que ultrapassem o tamanho da div-->
+    }
+
+    #dashboard-box-3 {
+        background-color: white;
+        height: 190px;
+        margin: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 5px #9c9c9c;
+        border-radius: 5px;
+        overflow: hidden;
+        <-- !Faz não aparecer execessos de objetos que ultrapassem o tamanho da div-->
+    }
+
+
+
+    .tg td {
+        font-family: Tahoma, Tahoma;
+        color: #7e7b72;
+        font-size: 14px;
+        height: 30px;
+        border-style: hidden;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+    }
+
+    .tg .value {
+        text-align: right;
+</style>
+
+
+</style>
+
+<body>
+    <div id="label-box">
+        <br />
+        Recanto do Raio Amarelo
+    </div>
+
+    <div class="titles">
+        Galere
+    </div>
+
+
+    <div id="dashboard" align="left">
+
+        <div id="dashboard-box-1">
+
+            <table class="tg" style="undefined;table-layout: fixed; width: 390px">
+                <colgroup>
+                    <col style="width: 15%">
+                    <col style="width: 55%">
+                    <col style="width: 30%">
+                </colgroup>
+                <tr>
+                    <td class="avatar">Avatar1</td>
+                    <td class="name">Sandrin</td>
+                    <td class="value">Pago</td>
+                </tr>
+                <tr>
+                    <td class="avatar">Avatar2</td>
+                    <td class="name">Matheus</td>
+                    <td class="value">R$ 600,00</td>
+                </tr>
+                <tr>
+                    <td class="avatar">Avatar3</td>
+                    <td class="name">Yuri</td>
+                    <td class="value">R$ 600,00</td>
+                </tr>
+                <tr>
+                    <td class="avatar">Avatar4</td>
+                    <td class="name">Martins</td>
+                    <td class="value">R$ 600,00</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="titles">
+            Boletão
+        </div>
+
+        <div id="dashboard-box-2" align="center"><br />
+            R$ 600,00 pagos de R$ 2.400,00
+            <div style="margin: 20px auto; width: 90%;">
+                <ons-progress-bar value="25" secondary-value="100"></ons-progress-bar>
+            </div>
+        </div>
+
+
+        <div class="titles">
+            Contas
+        </div>
+
+        <div id="dashboard-box-3">
+            Nada ainda, adicionar tabela com x linhas a decidir
+        </div>
+    </div>
+
+
+</body>
+</html>
